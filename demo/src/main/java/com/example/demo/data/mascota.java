@@ -35,5 +35,9 @@ public class mascota {
     public String getEstado() { return estado; }
     
     public void setEstado(String estado) { this.estado = estado; }
+    
+    public String toFileString() {
+        return id + "|" + nombre + "|" + especie + "|" + raza + "|" + edad + "|" + sexo + "|" + estadoSalud + "|" + fotoUrl + "|" + estado;
+    }
 
 }
