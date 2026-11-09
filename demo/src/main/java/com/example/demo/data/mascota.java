@@ -12,4 +12,17 @@ public class mascota {
     private String estadoSalud;
     private String fotoUrl;
     private String estado;
+
+    public mascota(String id, String nombre, String especie, String raza, int edad, String sexo, String estadoSalud, String fotoUrl, String estado) {
+        this.id = id;
+        this.nombre = nombre;
+        this.especie = especie;
+        this.raza = raza;
+        this.edad = edad;
+        this.sexo = sexo;
+        this.estadoSalud = estadoSalud;
+        this.fotoUrl = fotoUrl;
+        this.estado = estado;
+    }
+    
 }
