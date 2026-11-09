@@ -24,5 +24,16 @@ public class mascota {
         this.fotoUrl = fotoUrl;
         this.estado = estado;
     }
+    public String getId() { return id; }
+    public String getNombre() { return nombre; }
+    public String getEspecie() { return especie; }
+    public String getRaza() { return raza; }
+    public int getEdad() { return edad; }
+    public String getSexo() { return sexo; }
+    public String getEstadoSalud() { return estadoSalud; }
+    public String getFotoUrl() { return fotoUrl; }
+    public String getEstado() { return estado; }
     
+    public void setEstado(String estado) { this.estado = estado; }
+
 }
