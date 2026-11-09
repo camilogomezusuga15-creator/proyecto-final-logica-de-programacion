@@ -9,7 +9,27 @@ import com.vaadin.flow.router.RouterLink;
 
 public class mainlayout extends AppLayout {
     public mainlayout() {
-        addToNavbar(new DrawerToggle());
-        addToNavbar(new H1("Mi Aplicación"));
+        crearHeader();
+        crearMenuDrawer();
+    }
+
+    private void crearHeader() {
+        H1 logo = new H1("Refugio de Mascotas");
+        logo.getStyle().set("font-size", "1.5em").set("margin", "0");
+
+        HorizontalLayout header = new HorizontalLayout(new DrawerToggle(), logo);
+        header.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
+        header.setWidth("100%");
+        header.addClassNames("py-0", "px-m");
+
+        addToNavbar(header);
+    }
+
+    private void crearMenuDrawer() {
+        // Aquí agregarás los RouterLink de las otras vistas (Adoptantes, Solicitudes)
+        RouterLink mascotasLink = new RouterLink("Catálogo de Mascotas", MascotasView.class);
+        
+        VerticalLayout menu = new VerticalLayout(mascotasLink);
+        addToDrawer(menu);
     }
 }
