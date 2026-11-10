@@ -1,0 +1,2 @@
+1|Max|Perro|Labrador|3|Macho|Saludable, vacunas al día|https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=300&q=80|disponible
+2|Luna|Gato|Siamés|1|Hembra|Requiere revisión veterinaria|https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=300&q=80|en proceso
