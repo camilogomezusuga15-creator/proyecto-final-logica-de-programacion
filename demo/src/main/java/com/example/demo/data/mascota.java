@@ -1,7 +1,5 @@
 package com.example.demo.data;
 
-
-
 public class mascota {
     private String id;
     private String nombre;
@@ -35,7 +33,7 @@ public class mascota {
     public String getEstado() { return estado; }
     
     public void setEstado(String estado) { this.estado = estado; }
-    
+
     public String toFileString() {
         return id + "|" + nombre + "|" + especie + "|" + raza + "|" + edad + "|" + sexo + "|" + estadoSalud + "|" + fotoUrl + "|" + estado;
     }
