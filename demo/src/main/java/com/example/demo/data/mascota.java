@@ -37,5 +37,6 @@ public class mascota {
     public String toFileString() {
         return id + "|" + nombre + "|" + especie + "|" + raza + "|" + edad + "|" + sexo + "|" + estadoSalud + "|" + fotoUrl + "|" + estado;
     }
+    
 
 }
