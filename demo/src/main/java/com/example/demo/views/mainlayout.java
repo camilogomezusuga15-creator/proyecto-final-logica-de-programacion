@@ -28,8 +28,10 @@ public class mainlayout extends AppLayout {
     private void crearMenuDrawer() {
         // Aquí agregarás los RouterLink de las otras vistas (Adoptantes, Solicitudes)
         RouterLink mascotasLink = new RouterLink("Catálogo de Mascotas", MascotasView.class);
+        RouterLink adoptantesLink = new RouterLink("Adoptantes", AdoptantesView.class);
+        RouterLink solicitudesLink = new RouterLink("Solicitudes de Adopción", SolicitudesView.class);
         
-        VerticalLayout menu = new VerticalLayout(mascotasLink);
+        VerticalLayout menu = new VerticalLayout(mascotasLink, adoptantesLink, solicitudesLink);
         addToDrawer(menu);
     }
 }

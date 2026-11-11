@@ -1,0 +1,2 @@
+A1|Carlos Pérez|3001234567|Apartamento|No|Perro|Principiante
+A2|María López|3109876543|Casa|Si|Cualquiera|Experto
